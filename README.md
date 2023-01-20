@@ -1,2 +1,2 @@
 # Heroes App
-## Proyect created using React js+Vite 
+## Project created using React js+Vite 
