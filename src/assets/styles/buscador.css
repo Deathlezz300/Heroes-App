@@ -23,3 +23,13 @@
 .container-form >h3{
     width: 70%
 }
+
+@media screen and (max-width:720px) {
+    .input-buscador{
+        width: 90%;
+    }
+
+    .container-form>h3{
+        width: 90%;
+    }
+}
