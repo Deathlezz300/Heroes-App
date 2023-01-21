@@ -1,0 +1,29 @@
+.box-heroe{
+    width: 100%;
+    display: flex;
+}
+
+.info-heroe{
+    display: flex;
+    width: 50%;
+    height: auto;
+    gap: 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-heroe>p,.info-heroe>h2,.info-heroe>h3{
+    width: 100%;
+    text-align: center;
+}
+
+
+.box-imagen-heroe{
+    width: 50%;
+    height: 100%;
+}
+
+.imagen-heroe{
+    width: 100%;
+}

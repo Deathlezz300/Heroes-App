@@ -36,6 +36,9 @@
     color: #374BEC;
 }
 
+.boton-salir2{
+    font-size: 1rem;
+}
 
 .item-list::after{
     content: '';
@@ -109,7 +112,14 @@
 
 .item-list2{
     margin:5%;
-    font-size: 1.3rem;
+    font-size: 1.7rem;
+}
+
+.boton-salir{
+    background: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
 
 .check-menu:checked ~ul{
