@@ -1,0 +1,13 @@
+.hero-page{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.hero{
+    width: auto;
+}
+

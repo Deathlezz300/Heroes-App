@@ -11,6 +11,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: .5rem;
 }
 
 .info-heroe>a{
@@ -20,6 +21,10 @@
 
 .info-heroe>a:hover{
     text-decoration: underline;
+}
+
+.info-heroe>a{
+    cursor: pointer;
 }
 
 .info-heroe>p,.info-heroe>h2,.info-heroe>h3{
@@ -35,4 +40,21 @@
 
 .imagen-heroe{
     width: 100%;
+}
+
+@media  screen and (max-width:550px) {
+    .box-heroe{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box-imagen-heroe{
+        width: 55%;
+    }
+
+    .info-heroe{
+        padding-top: .5rem;
+    }
 }
