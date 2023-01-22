@@ -11,3 +11,9 @@ export const getHeroesByPublisher=(publisher)=>{
         return heroe.publisher===publisher;
     })
 }
+
+export const getHeroID=(Heroe_id)=>{
+    return heroes.find(heroe=>{
+        return heroe.id===Heroe_id
+    });
+};

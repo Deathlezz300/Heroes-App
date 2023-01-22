@@ -13,6 +13,15 @@
     align-items: center;
 }
 
+.info-heroe>a{
+    color: #374BEC;
+    text-decoration: none;
+}
+
+.info-heroe>a:hover{
+    text-decoration: underline;
+}
+
 .info-heroe>p,.info-heroe>h2,.info-heroe>h3{
     width: 100%;
     text-align: center;

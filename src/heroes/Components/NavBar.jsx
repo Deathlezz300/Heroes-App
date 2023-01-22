@@ -13,7 +13,7 @@ export const NavBar = memo(() => {
 
     //Elreplace en true nos sirve para poder eliminar el acceso a la ruta anterior en la que estaba el usuario
   const onLogout=({target})=>{
-    navegacion('/login',{
+    navegacion('/',{
         replace:true
     });
   }

@@ -1,6 +1,6 @@
 import React from 'react'
 import '../../assets/styles/hero.css';
-import imagen from '../../assets/images/heroes/dc-arrow.jpg';
+import { Link } from 'react-router-dom';
 
 export const HeroItem= ({id,superhero,alter_ego,firts_ap,characters}) => {
 
@@ -16,8 +16,11 @@ export const HeroItem= ({id,superhero,alter_ego,firts_ap,characters}) => {
           <div className='info-heroe'>
             <h2>{superhero}</h2>
             <h3>{alter_ego}</h3>
+            {
+              (alter_ego!=characters) && (<p>{characters}</p>)
+            }
             <p>{firts_ap}</p>
-            <p>{characters}</p>
+            <Link to={`/hero/${id}`}>Mas...</Link>
           </div>
         </div>
     </>
