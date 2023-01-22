@@ -17,3 +17,9 @@ export const getHeroID=(Heroe_id)=>{
         return heroe.id===Heroe_id
     });
 };
+
+export const getHeroParameter=(parametro)=>{
+    return heroes.filter(heroe=>{
+        return heroe.superhero.includes(parametro);
+    });
+};
