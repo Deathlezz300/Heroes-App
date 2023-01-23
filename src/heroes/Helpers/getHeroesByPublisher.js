@@ -19,7 +19,11 @@ export const getHeroID=(Heroe_id)=>{
 };
 
 export const getHeroParameter=(parametro)=>{
-    return heroes.filter(heroe=>{
-        return heroe.superhero.includes(parametro);
-    });
+    if(parametro){
+        return heroes.filter(heroe=>{
+            return heroe.superhero.toLowerCase().includes(parametro.toLowerCase()) || heroe.alter_ego.toLocaleLowerCase().includes(parametro.toLowerCase()); 
+        });
+    }else{
+        return []
+    }
 };

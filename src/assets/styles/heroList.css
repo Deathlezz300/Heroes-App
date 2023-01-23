@@ -16,3 +16,7 @@
     grid-column-gap: 40px;
     grid-row-gap: 50px;
 }
+
+.titulo-null{
+    color: #374BEC;
+}
