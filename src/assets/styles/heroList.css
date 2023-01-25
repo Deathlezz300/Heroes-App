@@ -12,11 +12,17 @@
     height: auto;
     display: grid;
     place-items: center;
-    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
     grid-column-gap: 40px;
     grid-row-gap: 50px;
 }
 
 .titulo-null{
     color: #374BEC;
+}
+
+@media screen and (max-width:500px){
+    .grid{
+        width: 95%;
+    }
 }

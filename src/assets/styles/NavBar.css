@@ -71,7 +71,8 @@
     width: 1.6rem;
     height: 1.3rem;
     background: transparent;
-    margin-right: 3rem;
+    margin-right: 5%;
+
 }
 
 .label-menu > div{
@@ -131,7 +132,10 @@
     transform: translateX(0);
 }
 
-@media screen and (max-width:720px){
+@media screen and (max-width:770px){
+    
+
+    
     .label-menu{
         display: flex;
     }
@@ -140,13 +144,9 @@
         display: none;
     }
 
-    .titulo-head{
-        margin-left: 6%;
-    }
+    
 
-    .label-menu{
-        margin-right: 5.5%;
-    }
+
 
 
 }

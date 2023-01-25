@@ -25,7 +25,6 @@ export const NavBar = memo(() => {
     <>
         <input className='check-menu' type="checkbox" id='menu-check' />
         <ul className='lista2'>
-                <NavLink  onClick={cerrarMenu} className={({isActive})=>`item-list item-list2 ${isActive ? 'active':''}`} to=''>Asociados</NavLink>
                 <NavLink  onClick={cerrarMenu} className={({isActive})=>`item-list item-list2 ${isActive ? 'active':''}`} to='/marvel'>Marvel</NavLink>
                 <NavLink  onClick={cerrarMenu} className={({isActive})=>`item-list item-list2 ${isActive ? 'active':''}`} to='/dc'>DC</NavLink>
                 <NavLink  onClick={cerrarMenu} className={({isActive})=>`item-list item-list2 ${isActive ? 'active':''}`} to='/search'>Buscador</NavLink>

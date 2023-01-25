@@ -42,7 +42,7 @@
     width: 100%;
 }
 
-@media  screen and (max-width:550px) {
+@media  screen and (max-width:770px) {
     .box-heroe{
         flex-direction: column;
         display: flex;
