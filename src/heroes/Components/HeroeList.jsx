@@ -4,6 +4,7 @@ import { HeroItem } from './HeroItem'
 import '../../assets/styles/heroList.css'
 import { useMemo } from 'react'
 
+
 export const HeroeList = ({publisher}) => {
 
 
@@ -17,9 +18,10 @@ export const HeroeList = ({publisher}) => {
         <div className='grid'>
             {ListadoHeroes.map(heroe=>{
                 return <HeroItem key={heroe.id} id={heroe.id} superhero={heroe.superhero} alter_ego={heroe.alter_ego} firts_ap={heroe.first_appearance}
-                characters={heroe.characters} LinkBar={true}/>
+                characters={heroe.characters} LinkBar={true} image={heroe.image}/>
             })}
         </div>
+        
     </section>
     </>
   )

@@ -4,9 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import 'animate.css';
 
-export const HeroItem= ({id,superhero,alter_ego,firts_ap,characters,LinkBar}) => {
-
-  const heroImageUrl=`../heroes/${id}.jpg`;
+export const HeroItem= ({id,superhero,alter_ego,firts_ap,characters,LinkBar,image}) => {
 
   const navegacion=useNavigate();
 
@@ -29,7 +27,7 @@ export const HeroItem= ({id,superhero,alter_ego,firts_ap,characters,LinkBar}) =>
     <>
         <div className='box-heroe animate__animated animate__fadeIn'>
           <div className='box-imagen-heroe'>
-            <img className='imagen-heroe' src={heroImageUrl} alt="" />
+            <img className='imagen-heroe' src={image} alt="" />
           </div>
           <div className='info-heroe'>
             <h2>{superhero}</h2>

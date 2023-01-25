@@ -24,7 +24,7 @@ export const HeroPage = () => {
       <section className='hero-page'>
         <div className='hero'>
         <HeroItem id={hero.id} superhero={hero.superhero} alter_ego={hero.alter_ego} firts_ap={hero.first_appearance}
-        characters={hero.characters} LinkBar={false}/>
+        characters={hero.characters} LinkBar={false} image={hero.image}/>
         </div>
       </section>
     </>

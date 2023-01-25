@@ -29,7 +29,7 @@ export const ListSearch = () => {
             MostrarMensaje()? <h2 className='titulo-null'>No hay heroes con {q}</h2>:
             data.map(heroe=>{
               return <HeroItem key={heroe.id} id={heroe.id} superhero={heroe.superhero} alter_ego={heroe.alter_ego} firts_ap={heroe.first_appearance}
-              characters={heroe.characters} LinkBar={true}/>
+              characters={heroe.characters} LinkBar={true} image={heroe.image}/>
           })
           }
         </div>
