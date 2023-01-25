@@ -14,7 +14,7 @@ export const HeroItem= ({id,superhero,alter_ego,firts_ap,characters,LinkBar}) =>
     if(LinkBar===false){
       return <a onClick={RegresarPagina}>Regresar</a>
     }else{
-      return <Link to={`/hero/${id}`}>Mas...</Link>
+      return <Link to={`./hero/${id}`}>Mas...</Link>
     }
   }
 
