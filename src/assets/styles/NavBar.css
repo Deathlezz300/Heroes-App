@@ -19,6 +19,11 @@
 
 .lista{
     margin-right: 3rem;
+    display: flex;
+}
+
+.lista>p{
+    font-weight: 700;
 }
 
 .item-list{

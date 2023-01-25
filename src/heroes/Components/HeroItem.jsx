@@ -6,7 +6,7 @@ import 'animate.css';
 
 export const HeroItem= ({id,superhero,alter_ego,firts_ap,characters,LinkBar}) => {
 
-  const heroImageUrl=`/src/assets/images/heroes/${id}.jpg`;
+  const heroImageUrl=`/public/heroes/${id}.jpg`;
 
   const navegacion=useNavigate();
 

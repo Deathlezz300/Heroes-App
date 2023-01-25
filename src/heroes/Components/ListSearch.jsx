@@ -18,10 +18,7 @@ export const ListSearch = () => {
   },[q]);
 
   const MostrarMensaje=()=>{
-    if( data?.length===0 && q?.length>0){
-        return true;
-    }
-    return false;
+    return data?.length===0 && q?.length>0;
   }
 
   return (
