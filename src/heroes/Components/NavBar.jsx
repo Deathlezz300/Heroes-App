@@ -37,7 +37,7 @@ export const NavBar = memo(() => {
                 <NavLink className={({isActive})=>`item-list ${isActive ? 'active':''}`} to='/dc'>DC</NavLink>
                 <NavLink className={({isActive})=>`item-list ${isActive ? 'active':''}`} to='/search'>Buscador</NavLink>
                 <p>{user?.user}</p>
-                <button onClick={onLogout} className='item-list boton-salir boton-salir2'>Logout</button>
+                <button aria-label='salir' onClick={onLogout} className='item-list boton-salir boton-salir2'>Logout</button>
             </ul>
             <label className='label-menu' htmlFor="menu-check" id='label-menu' onClick={CambiarMenu}>
                 <div className='div'></div>
